@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment and secrets
+.env
+.env.*
+*.log
+
+# Testing & local candidate kit extras (kept out of clean submission)
+tests/
+WALKTHROUGH.md
+scratch/
+PROBLEM_STATEMENT.docx
+openapi.yaml
+DATA_MODEL.md
+sample_data/
+sample_seed.py
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
